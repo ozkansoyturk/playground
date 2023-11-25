@@ -1,0 +1,12 @@
+header {
+  height: 9%;
+}
+
+main {
+  flex-direction: column;
+}
+
+.hyperplexedTitle {
+  font-size: 2rem;
+  font-family: "Space Mono", monospace;
+}

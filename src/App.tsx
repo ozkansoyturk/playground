@@ -1,9 +1,15 @@
 import "./App.css";
+import Hyperplexed from "./components/Hyperplexed";
 
 function App() {
   return (
     <>
-      <div></div>
+      <header>
+        <h1 className="PageTitle">PLayground</h1>
+      </header>
+      <main>
+        <Hyperplexed />
+      </main>
     </>
   );
 }
