@@ -1,5 +1,5 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import Hyperplexed from "./components/Hyperplexed";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <h1 className="PageTitle">PLayground</h1>
       </header>
       <main>
-        <Hyperplexed />
+        <Outlet />
       </main>
     </>
   );
