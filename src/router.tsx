@@ -6,7 +6,7 @@ import Gsap from "./pages/gsap/Gsap";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/playground/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
