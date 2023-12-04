@@ -6,16 +6,16 @@ import Gsap from "./pages/gsap/Gsap";
 
 export const router = createBrowserRouter([
   {
-    path: "/playground/",
+    path: "/playground",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "hyperplexed",
+        path: "/hyperplexed",
         element: <Hyperplexed />,
       },
       {
-        path: "gsap",
+        path: "/gsap",
         element: <Gsap />,
       },
     ],
