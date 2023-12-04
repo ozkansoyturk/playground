@@ -11,11 +11,11 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "hyperplexed", // Utilisez un chemin absolu ici
+        path: "/hyperplexed", // Utilisez un chemin absolu ici
         element: <Hyperplexed />,
       },
       {
-        path: "gsap", // Utilisez un chemin absolu ici
+        path: "/gsap", // Utilisez un chemin absolu ici
         element: <Gsap />,
       },
     ],
